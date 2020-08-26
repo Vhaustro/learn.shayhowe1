@@ -46,9 +46,28 @@ table {
   border-spacing: 0;
 }
 
-#top{
-    background-color: green;
-    text-decoration: underline;
-    box-shadow: 5px;     
+
+
+/*
+
+    ================================
+
+    Grid
+
+    ================================
+*/
+
+
+*,
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+
+p{
+    display: block;
+}
